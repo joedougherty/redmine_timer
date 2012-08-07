@@ -26,13 +26,13 @@ void loop() {
     } 
     else {
       // if the current state is LOW then the button
-      // wend from on to off:
+      // went from on to off:
       Serial.println("off"); 
       digitalWrite(ledPin, LOW);
     }
   }
   // save the current state as the last state, 
-  //for next time through the loop
+  // for next time through the loop
   lastButtonState = buttonState;
 
 }
